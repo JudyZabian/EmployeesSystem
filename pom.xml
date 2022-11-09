@@ -9,9 +9,9 @@
 		<relativePath/>
 	</parent>
 	<groupId>net.javaguides</groupId>
-	<artifactId>springboot-backend</artifactId>
+	<artifactId>employee-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-backend</name>
+	<name>employee-backend</name>
 	<description>Spring Boot RESTful Web Services</description>
 	<properties>
 		<java.version>16</java.version>
@@ -25,13 +25,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>2.7.2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.29</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -43,7 +41,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<version>2.7.2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

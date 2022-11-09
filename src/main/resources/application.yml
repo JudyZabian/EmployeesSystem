@@ -1,0 +1,25 @@
+info.app:
+    name: Emlpoyee Managment System
+    description: Simple Employee Managment System
+    provider: Judy Zabian
+
+logging:
+  level: org.hibernate.SQL=DEBUG
+
+# JPA
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    properties:
+      hibernate:
+
+    datasource:
+      url: jdbc:mysql://localhost:3306/employees?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+      username: judy
+      password: password
+
+
+
+
